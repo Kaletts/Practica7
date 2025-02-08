@@ -1,0 +1,17 @@
+.tarjetas {
+    height: 100%;
+}
+
+
+.btn-primary {
+    background-color: #19a0b4 !important;
+    border: none !important;
+}
+
+.bg-info {
+    background-color: #19a0b4 !important;
+}
+
+.p-lg-6 {
+    padding: 6rem !important;
+}

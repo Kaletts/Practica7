@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Contacto</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb m-2">
+            <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Contacto</li>
+        </ol>
+    </nav>
+
+    <div class="container mt-5">
+        <h1 class="text-center">Contáctanos</h1>
+        <p class="text-center">Si tienes alguna consulta, por favor completa el siguiente formulario y nos pondremos en
+            contacto contigo a la mayor brevedad posible.</p>
+
+        <form>
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre" placeholder="Tu nombre" required>
+            </div>
+            <div class="mb-3">
+                <label for="correo" class="form-label">Correo Electrónico</label>
+                <input type="email" class="form-control" id="correo" placeholder="Tu correo electrónico" required>
+            </div>
+            <div class="mb-3">
+                <label for="consulta" class="form-label">Consulta</label>
+                <textarea class="form-control" id="consulta" rows="4" placeholder="Escribe tu consulta aquí"
+                    required></textarea>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="aceptar" required>
+                <label class="form-check-label" for="aceptar">Acepto los términos y condiciones</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+
+    <div class="container mt-5">
+        <nav aria-label="Page navigation">
+            <ul class="pagination justify-content-center">
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                <li class="page-item"><a class="page-link" href="https://es.wikipedia.org/wiki/Uno">1</a></li>
+                <li class="page-item"><a class="page-link" href="https://es.wikipedia.org/wiki/Dos">2</a></li>
+                <li class="page-item"><a class="page-link" href="https://es.wikipedia.org/wiki/Tres">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-info py-4">
+        <div class="container text-center">
+            <p class="mb-0">© 2025 Kaled Emanuel Jaluf.</p>
+        </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
